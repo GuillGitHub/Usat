@@ -1,15 +1,18 @@
 import React from 'react'
 import Input from "../../components/Input";
 import Button from "../../components/Button";
-import Footer from "../../components/Footer";
-import { Container, ContainerForm, Form, Label } from './styles';
+import { Container, ContainerForm, Form, Label, LogoContainer} from './styles';
+import logo from '../../imagens/logo.png';
 
 const Cadastro = () => {
   return (
     <Container>
+        <LogoContainer>
+          <img src={logo} alt="Logo" />
+        </LogoContainer>
+        <ContainerForm>
         <h2>Crie sua conta</h2>
         <p>Cadastre-se para acessar a plataforma!</p>
-        <ContainerForm>
             <Form>
                 <Label>Nome de usuário</Label>
                 <Input type='text' placeholder='Crie seu nome' />
