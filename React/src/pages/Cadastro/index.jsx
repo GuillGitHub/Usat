@@ -7,9 +7,14 @@ import logo from '../../imagens/logo.png';
 const Cadastro = () => {
   return (
     <Container>
+      <table border = "0">
+        <tr>
+          <td align = "left">
         <LogoContainer>
-          <img src={logo} alt="Logo" />
+          <img src={logo} align = "left" alt="Logo" />
         </LogoContainer>
+        </td>
+        <td>
         <ContainerForm>
         <h2>Crie sua conta</h2>
         <p>Cadastre-se para acessar a plataforma!</p>
@@ -27,6 +32,9 @@ const Cadastro = () => {
                 <Button>Fazer Cadastro</Button>
             </Form>
         </ContainerForm>
+        </td>
+        </tr>
+        </table>
     </Container>
   )
 }

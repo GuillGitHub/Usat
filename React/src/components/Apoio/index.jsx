@@ -11,20 +11,11 @@ const Apoio = () => {
         <Fragment>
             <Container>
                 <Item>
-                    <img src={Logo} alt=""/>
-                    <p>Entre em contato com a gente!</p>
-                    <nav>
-                    <li><span><FaFacebook size={32}/></span></li>  
-                    <li><span><FaInstagram size={32}/></span></li>  
-                    <li><span><FaGooglePlus size={32}/></span></li>  
-                    </nav>
-                </Item>
-                <Item>
                     <h3>Realização e apoio</h3>
                     <ul>
-                        <img src={Fapesc} alt=""/>
-                        <img src={Casan} alt=""/>
-                        <img src={UFSC} alt=""/>
+                        <img src={Fapesc} align="center" alt=""/>
+                        <img src={Casan} align="center" alt=""/>
+                        <img src={UFSC} align="center" alt=""/>
                     </ul>
                 </Item>
             </Container>
