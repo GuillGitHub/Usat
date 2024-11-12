@@ -9,9 +9,9 @@ export const Container = styled.div`
 `;
 
 export const LogoContainer = styled.div`
-  margin-right: 40px; /* Espaço entre o logo e o formulário */
+  margin-right: 100px; /* Espaço entre o logo e o formulário */
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   img{
         width: 700px;
