@@ -2,8 +2,8 @@ import React from 'react'
 import Button from "../../components/Button";
 import Desempenho_Imagem from '../../imagens/Imagem_Desempenho.png';
 import Desempenho_Imagem2 from '../../imagens/Imagem_Desempenho_2.png';
-import Estrutura_urbana_Imagem from '../../imagens/Estrutura_Urbana_Imagem.png';
-import Condutas_Imagem from '../../imagens/Condutas_Imagem.png';
+import Estrutura_urbana_Imagem from '../../imagens/EU_Ilustracao.png';
+import Condutas_Imagem from '../../imagens/Condutas_Ilustracao.png';
 import { Container, ContainerEixo, ContainerTitulo, Horizontal, Label, ContainerCinza} from './styles';
 
 
@@ -27,7 +27,7 @@ const Desempenho = () => {
             </ContainerEixo>
 
             <div style={{ padding:'15x', display: 'flex', alignItems: 'center' }}>
-            <ContainerCinza style={{ margin: '15px' }}>
+            <ContainerCinza>
                 <Label cor="var(--moss-green)" tamanho="48" align="center"> Condutas </Label>
                 <div style={{position: 'absolute', bottom: '270px', left: '20%' }}>
                     <Label cor="var(--moss-green)" tamanho="20" align="center"> Lagoa da conceição  </Label>

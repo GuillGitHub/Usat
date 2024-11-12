@@ -1,6 +1,13 @@
 import styled from 'styled-components';
 
+export const Container = styled.div`
+  margin-left: 4px; /* centralizar indicadores */
+  display: flex;
+  align-items: center;
+`;
+
 export const IndicadorContainer = styled.div`
+  left: 21px;
   display: flex;
   align-items: center;
   background-color: #F2F2F2;
@@ -8,6 +15,7 @@ export const IndicadorContainer = styled.div`
   height: 59px;
   border-radius: 20px;
   cursor: pointer; /* clicavel ao passar o mouse em cima */
+  position: relative;
 `;
 
 export const IconeContainer = styled.div`
@@ -15,14 +23,15 @@ export const IconeContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 15px;
   width: 71px;
   height: 69px;
   border-radius: 20px;
+  position: absolute;
+  z-index: 1;
 `;
 
 export const Texto = styled.span`
-  font-family: Inter;
+  margin-left: 65px;
 	font-size: 22px;
 	font-weight: 700;
 	line-height: 20px;

@@ -1,14 +1,16 @@
 import React from 'react';
-import { IndicadorContainer, IconeContainer, Texto } from './styles';
+import { Container, IndicadorContainer, IconeContainer, Texto } from './styles';
 
 function Indicador({ titulo, icone, bgColor }) {
   return (
-    <IndicadorContainer>
+    <Container>
       <IconeContainer bgColor={bgColor}>
         <img src={icone} alt="" />
       </IconeContainer>
-      <Texto>{titulo}</Texto>
-    </IndicadorContainer>
+      <IndicadorContainer>
+        <Texto>{titulo}</Texto>
+      </IndicadorContainer>
+    </Container>
   );
 }
 

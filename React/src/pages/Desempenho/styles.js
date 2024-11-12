@@ -36,6 +36,8 @@ export const ContainerEixo = styled.div`
 
 `
 export const ContainerCinza = styled.div`
+    margin-left: 30px;
+    margin-top: 70px;
     padding: 25px;
     width: 324px;
     height:465px;
@@ -46,7 +48,7 @@ export const ContainerCinza = styled.div`
     position:relative;
     border: 2px solid var(--green); 
     & > div {
-        margin: 10px; 
+        margin: 10px;
     }
     background-color: var(--light-gray)
 

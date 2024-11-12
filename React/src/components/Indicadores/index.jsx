@@ -1,13 +1,17 @@
 import React from 'react';
-import { Numero, IconeContainer, NomeIndicador } from './styles';
+import { Numero, Infos, IndContainer, NomeIndicador, Icone } from './styles';
 
 function Indicador({ nomeind, numero, icone, indColor }) {
   return (
-    <IconeContainer indColor={indColor}>
-        <Numero>{numero}</Numero>
+    <IndContainer indColor={indColor}>
+      <Numero>{numero}</Numero>
+      <Infos>
         <NomeIndicador>{nomeind}</NomeIndicador>
-        <img src={icone} alt="" />
-    </IconeContainer>
+        <Icone>
+          <img src={icone} alt="" />
+        </Icone>
+      </Infos>
+    </IndContainer>
   );
 }
 

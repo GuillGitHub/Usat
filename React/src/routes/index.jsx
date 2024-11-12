@@ -11,9 +11,9 @@ import Error from "../components/Error";
 import Login from '../pages/Login';
 import Cadastro from '../pages/Cadastro';
 import Choques from '../pages/Choques';
-import Conduta_Ambiental from '../pages/Conduta_Eixo_Ambiental';
-import Conduta_Social from '../pages/Conduta_Eixo_Social';
-import Conduta_Econômico from '../pages/Conduta_Eixo_Econômico';
+import CONDUTAS_AMBIENTAL from '../pages/CONDUTAS_AMBIENTAL';
+import CONDUTAS_SOCIAL from '../pages/CONDUTAS_SOCIAL';
+import CONDUTAS_ECONOMICO from '../pages/CONDUTAS_ECONOMICO';
 import Desempenho from '../pages/Desempenho';
 import EU_AMBIENTAL from '../pages/EU_AMBIENTAL';
 import EU_SOCIOCULTURAL from '../pages/EU_SOCIOCULTURAL';
@@ -28,9 +28,9 @@ const RouterApp = () => {
             <Route path="/login" element={<Login />} />
             <Route path="/cadastro" element={<Cadastro />} />
             <Route path="/choques" element={<Choques />} />
-            <Route path="/conduta-economico" element={<Conduta_Econômico/>} />
-            <Route path="/conduta-social" element={<Conduta_Social/>} />
-            <Route path="/conduta-ambiental" element={<Conduta_Ambiental/>} />
+            <Route path="/conduta-economico" element={<CONDUTAS_ECONOMICO/>} />
+            <Route path="/conduta-social" element={<CONDUTAS_SOCIAL/>} />
+            <Route path="/conduta-ambiental" element={<CONDUTAS_AMBIENTAL/>} />
             <Route path="/desempenho" element={<Desempenho />} />
             <Route path="/eu-ambiental" element={<EU_AMBIENTAL/>} />
             <Route path="/eu-sociocultural" element={<EU_SOCIOCULTURAL/>} />

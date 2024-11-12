@@ -15,7 +15,6 @@ export const Header = styled.div`
   background-color: #f5fbea;
   position: absolute;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* sombra - extra, ver se eh realmente necessario */
-  font-family: Inter;
 `;
 
 export const Ilust = styled.div`
