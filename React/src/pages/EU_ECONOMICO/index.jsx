@@ -3,6 +3,8 @@ import Eixo from '../../components/Eixo';
 import Indicadores from '../../components/Indicadores';
 import { Container, Fundo, ContainerIndicadores } from './styles';
 import IconeEixo from '../../imagens/IconeEixoEconomico.svg';
+import Ilustracao from '../../imagens/EU_Ilustracao.png';
+
 
 const numeroInicial = 20;
 const numeracao = Array.from({ length: 6 }, (_, i) => numeroInicial + i); //alterar para numero de indicadores
@@ -30,6 +32,7 @@ const EU_ECONOMICO = () => {
             nomeeixo={NomeEixo}
             iconeeixo={IconeEixo}
             bgColor={CorEixo}
+            imagem = {Ilustracao}
             />
             <ContainerIndicadores>
                  {TitulosIndicadores.map((nomeIndic, indice) => (

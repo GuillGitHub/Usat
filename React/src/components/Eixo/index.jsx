@@ -1,8 +1,7 @@
 import React from 'react';
 import { Titulo, Fundo, NomeEixo, IconeContainer, Conteudo, Texto, Ilust, HeaderEixo } from './styles';
-import Ilustracao from '../../imagens/EU_Ilustracao.png';
 
-function Eixo({ titulo, nomeeixo, iconeeixo, bgColor }) {
+function Eixo({ titulo, nomeeixo, iconeeixo, bgColor, imagem }) {
     return (
       <ul>
         <Titulo>{titulo}</Titulo>
@@ -16,7 +15,7 @@ function Eixo({ titulo, nomeeixo, iconeeixo, bgColor }) {
           <Conteudo>
             <Texto>Resumo do eixo.</Texto>
             <Ilust>
-              <img src={Ilustracao} alt="" />
+              <img src={imagem} alt="" />
             </Ilust>
           </Conteudo>
         </Fundo>

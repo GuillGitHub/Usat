@@ -3,6 +3,8 @@ import Eixo from '../../components/Eixo';
 import Indicadores from '../../components/Indicadores';
 import { Container, Fundo, ContainerIndicadores } from './styles';
 import IconeEixo from '../../imagens/IconeEixoSocial.svg';
+import Ilustracao from '../../imagens/Condutas_Ilustracao.png';
+
 
 const numeroInicial = 7;
 const numeracao = Array.from({ length: 3 }, (_, i) => numeroInicial + i); //alterar para numero de indicadores
@@ -27,6 +29,7 @@ const CONDUTAS_SOCIAL = () => {
               nomeeixo={NomeEixo}
               iconeeixo={IconeEixo}
               bgColor={CorEixo}
+              imagem = {Ilustracao}
               />
               <ContainerIndicadores>
                    {TitulosIndicadores.map((nomeIndic, indice) => (
